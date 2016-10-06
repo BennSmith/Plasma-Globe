@@ -12,5 +12,11 @@ function setup() {
 }
 
 function draw() {
+    ellipse(centerX, centerY, 50, 50);
+}
+
+function bob() {
+    this.x = 4;
+    this.y = 100;
 
 }
